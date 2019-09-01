@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBoard.Model", "NoteBoard.Model\NoteBoard.Model.csproj", "{80963873-F99A-4ECE-BF85-8957E7CAC941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBoard.DAL", "NoteBoard.DAL\NoteBoard.DAL.csproj", "{4E321947-9BAB-43BE-9805-6BC595BBF880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBoard.BLL", "NoteBoard.BLL\NoteBoard.BLL.csproj", "{DAC1E054-8826-4BB4-A723-6144EA56DB0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBoard.PL.WinForm", "NoteBoard.PL.WinForm\NoteBoard.PL.WinForm.csproj", "{AAB38EF3-AEE6-4835-A755-83F152AAD6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBoard.CustomException", "NoteBoard.Exception\NoteBoard.CustomException.csproj", "{12FC2349-2118-4FD6-B03E-28E9DF20BA92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBoard.DTO", "NoteBoard.DTO\NoteBoard.DTO.csproj", "{71BD033B-C366-4752-B6B5-4646AB0C2334}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80963873-F99A-4ECE-BF85-8957E7CAC941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80963873-F99A-4ECE-BF85-8957E7CAC941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80963873-F99A-4ECE-BF85-8957E7CAC941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80963873-F99A-4ECE-BF85-8957E7CAC941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E321947-9BAB-43BE-9805-6BC595BBF880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E321947-9BAB-43BE-9805-6BC595BBF880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E321947-9BAB-43BE-9805-6BC595BBF880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E321947-9BAB-43BE-9805-6BC595BBF880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC1E054-8826-4BB4-A723-6144EA56DB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC1E054-8826-4BB4-A723-6144EA56DB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC1E054-8826-4BB4-A723-6144EA56DB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC1E054-8826-4BB4-A723-6144EA56DB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB38EF3-AEE6-4835-A755-83F152AAD6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB38EF3-AEE6-4835-A755-83F152AAD6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB38EF3-AEE6-4835-A755-83F152AAD6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB38EF3-AEE6-4835-A755-83F152AAD6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FC2349-2118-4FD6-B03E-28E9DF20BA92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FC2349-2118-4FD6-B03E-28E9DF20BA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FC2349-2118-4FD6-B03E-28E9DF20BA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FC2349-2118-4FD6-B03E-28E9DF20BA92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BD033B-C366-4752-B6B5-4646AB0C2334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BD033B-C366-4752-B6B5-4646AB0C2334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BD033B-C366-4752-B6B5-4646AB0C2334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BD033B-C366-4752-B6B5-4646AB0C2334}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
